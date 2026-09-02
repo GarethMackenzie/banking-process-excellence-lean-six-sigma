@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+# Full generated datasets are reproducible and intentionally not tracked.
+data/interim/*.csv
+data/raw/*.csv
+data/clean/*.csv
+data/quarantine/*.csv
+data/msa/*.csv
+data/doe/*.csv
+!data/sample/*.csv
+results/seed_runs/
+
+# Local review/runtime artifacts (never publish these).
+.review-deps/
+.review-runtime/
+.review-wheels/
+.mplconfig/

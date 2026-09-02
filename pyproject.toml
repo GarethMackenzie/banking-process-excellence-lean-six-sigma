@@ -1,0 +1,9 @@
+[project]
+name = "banking-process-excellence-lean-six-sigma"
+version = "1.0.0"
+description = "Synthetic Lean Six Sigma DMAIC banking process excellence case study"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
