@@ -3,9 +3,9 @@
 ## Verdict
 
 **Starting checkpoint:** ~6.5/10 against the full remediation specification.  
-**Final locally verified score:** **9.4/10**.
+**Final reviewed score:** **9.4/10** (local verification plus GitHub-hosted CI).
 
-I would defend the project as **Master Black Belt / senior-statistician ready in methodology**, but I would not claim a literal externally verified 10/10 until the GitHub-hosted Actions workflow has run successfully on the final repository. Local CI-equivalent commands, pytest, statistical QA and master QA all pass.
+The methodology is strong and auditable for a portfolio case study. Local CI-equivalent commands, pytest, statistical QA, master QA, and the final GitHub-hosted Actions run all pass.
 
 ## Acceptance evidence
 
@@ -108,9 +108,9 @@ Across five independent 100,000-application runs, FPY, rework, SLA and COPQ rema
 | GitHub readiness | 9.4 |
 | Recruiter impact | 9.3 |
 
-### Why not call the external verification 10/10 yet?
+### Why not call the project 10/10 yet?
 
-Two things remain outside this local verification boundary: **(1)** the final GitHub Actions workflow has not been executed on GitHub-hosted runners because this checkpoint is not connected to a remote repository here; **(2)** the SPC event detector intentionally has imperfect sensitivity and reports that limitation honestly. Neither is hidden or converted into a fake pass.
+The SPC event detector intentionally has imperfect sensitivity and reports that limitation honestly. In addition, the project remains a synthetic portfolio case study rather than a production bank implementation. Neither limitation is hidden or converted into a fake pass.
 
 ## Major remediation completed
 
@@ -118,4 +118,4 @@ COPQ classification corrected; abandonment is a terminal/censored event; approva
 
 ## Remaining limitations
 
-The project is synthetic, simplified, not calibrated to a real bank, and not a legal/regulatory model. Power BI remains an optional presentation layer and no fake PBIX/PBIP or screenshots are included. GitHub-hosted CI must be confirmed after push.
+The project is synthetic, simplified, not calibrated to a real bank, and not a legal/regulatory model. Power BI remains an optional presentation layer and no fake PBIX/PBIP or screenshots are included. The final GitHub-hosted CI run passed on the complete repository.
