@@ -1,0 +1,37 @@
+{
+  "agreement_to_reference": 0.8770833333333333,
+  "within_appraiser_repeatability": 0.775,
+  "between_appraiser_unanimous_agreement": 0.6166666666666667,
+  "fleiss_kappa": 0.6811711230642997,
+  "reviewer_accuracy": {
+    "REV-01": 0.825,
+    "REV-02": 0.875,
+    "REV-03": 0.9,
+    "REV-04": 0.9083333333333333
+  },
+  "baseline": {
+    "agreement_to_reference": 0.8770833333333333,
+    "within_appraiser_repeatability": 0.775,
+    "between_appraiser_unanimous_agreement": 0.6166666666666667,
+    "fleiss_kappa": 0.6811711230642997,
+    "reviewer_accuracy": {
+      "REV-01": 0.825,
+      "REV-02": 0.875,
+      "REV-03": 0.9,
+      "REV-04": 0.9083333333333333
+    }
+  },
+  "post_standardization": {
+    "agreement_to_reference": 0.9583333333333334,
+    "within_appraiser_repeatability": 0.9166666666666666,
+    "between_appraiser_unanimous_agreement": 0.8333333333333334,
+    "fleiss_kappa": 0.8749951169967576,
+    "reviewer_accuracy": {
+      "REV-01": 0.925,
+      "REV-02": 0.9416666666666667,
+      "REV-03": 0.9833333333333333,
+      "REV-04": 0.9833333333333333
+    }
+  },
+  "agreement_gain_pp": 8.125000000000004
+}

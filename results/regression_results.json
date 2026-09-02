@@ -1,0 +1,41 @@
+{
+  "formula": "log_cycle ~ Complexity_Score + Risk_Score + Required_Manual_Review_Flag + Defect_Count + Opening_Backlog + System_Downtime_Minutes + C(Channel)",
+  "n": 97978,
+  "r_squared": 0.660191423308568,
+  "adj_r_squared": 0.6601602062051237,
+  "robust_covariance": "HC3",
+  "residual_skewness": 0.811846066187916,
+  "max_vif": 3.2535701022970764,
+  "vif": {
+    "Complexity_Score": 2.7440383601079823,
+    "Risk_Score": 3.2535701022970764,
+    "Required_Manual_Review_Flag": 2.199141325128534,
+    "Defect_Count": 1.0097055790440557,
+    "Opening_Backlog": 1.0001168028937868,
+    "System_Downtime_Minutes": 1.0000280825419283
+  },
+  "coefficients": {
+    "Intercept": 1.2972497298298995,
+    "C(Channel)[T.Broker Referral]": 0.0021868866514670945,
+    "C(Channel)[T.Call Centre]": 0.0033944341425346638,
+    "C(Channel)[T.Digital App]": 0.01187222098533942,
+    "Complexity_Score": 0.0022883610352757507,
+    "Risk_Score": 0.002559429497606861,
+    "Required_Manual_Review_Flag": 0.8872775256298508,
+    "Defect_Count": 0.25020305253696895,
+    "Opening_Backlog": 0.07858035870586426,
+    "System_Downtime_Minutes": 0.0008318918814997829
+  },
+  "p_values": {
+    "Intercept": 0.0,
+    "C(Channel)[T.Broker Referral]": 0.3913387173705043,
+    "C(Channel)[T.Call Centre]": 0.1261667889980905,
+    "C(Channel)[T.Digital App]": 8.072649250964685e-12,
+    "Complexity_Score": 1.7450880003641305e-195,
+    "Risk_Score": 3.3463645417619365e-176,
+    "Required_Manual_Review_Flag": 0.0,
+    "Defect_Count": 0.0,
+    "Opening_Backlog": 0.0,
+    "System_Downtime_Minutes": 0.01923316614966382
+  }
+}

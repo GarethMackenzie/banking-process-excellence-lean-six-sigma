@@ -1,0 +1,60 @@
+{
+  "overall": "PASS",
+  "checks": [
+    {
+      "check": "cycle_time_right_skew",
+      "status": "PASS",
+      "detail": "skew=4.037"
+    },
+    {
+      "check": "cycle_time_tail_finite",
+      "status": "PASS",
+      "detail": "max=49.69"
+    },
+    {
+      "check": "nondegenerate_Channel",
+      "status": "PASS",
+      "detail": "{'Digital App': 0.488, 'Branch': 0.27, 'Call Centre': 0.15, 'Broker Referral': 0.093}"
+    },
+    {
+      "check": "nondegenerate_Risk_Tier",
+      "status": "PASS",
+      "detail": "{'Low': 0.891, 'Medium': 0.077, 'High': 0.032}"
+    },
+    {
+      "check": "nondegenerate_Application_Complexity",
+      "status": "PASS",
+      "detail": "{'Low': 0.773, 'Medium': 0.158, 'High': 0.07}"
+    },
+    {
+      "check": "no_unexpected_near_duplicate_predictors",
+      "status": "PASS",
+      "detail": "max |r|=0.786 between Complexity_Score and Risk_Score"
+    },
+    {
+      "check": "backlog_increases_queue_time",
+      "status": "PASS",
+      "detail": "r=0.641"
+    },
+    {
+      "check": "defects_increase_rework",
+      "status": "PASS",
+      "detail": "rates=0.514/0.113"
+    },
+    {
+      "check": "abandonment_censoring",
+      "status": "PASS",
+      "detail": "abandoned rows have no approval/activation"
+    },
+    {
+      "check": "cost_nonnegative",
+      "status": "PASS",
+      "detail": "all cost fields nonnegative"
+    },
+    {
+      "check": "seed_stability_fpy",
+      "status": "PASS",
+      "detail": "CV=0.273%"
+    }
+  ]
+}

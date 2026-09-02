@@ -1,0 +1,6 @@
+Process Step,Failure Mode,Effect,Cause,Current Control,Severity,Occurrence,Detection,RPN,Recommended Action,Post-Improvement S,Post-Improvement O,Post-Improvement D,Residual RPN
+Document submission,Incomplete documentation,Rework / delay,Documentation completeness defect,Submission checks,7,3,5,105,Pre-validation at submission,7,1,4,28
+Identity verification,Identity mismatch,Exception handling,Identity verification defect,Identity matching rules,9,1,4,36,Standardized escalation path,9,1,3,27
+KYC screening,Processing defect,Rework / control delay,KYC processing defect,Reviewer checks,9,1,4,36,Checklist + peer review for exceptions,9,1,3,27
+Document validation,Poor document quality,Repeat validation,Document quality defect,Manual validation,6,1,5,30,Automated quality prompt + checklist,6,1,4,24
+Data capture,Incorrect captured data,Correction / rework,Data capture defect,Field validation,6,1,5,30,Input validation and standard fields,6,1,4,24

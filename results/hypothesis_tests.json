@@ -1,0 +1,18 @@
+{
+  "manual_review_mannwhitney": {
+    "u": 634557087.0,
+    "p_value": 0.0,
+    "rank_biserial": 0.9983468780956091,
+    "median_review": 12.592614475211668,
+    "median_no_review": 3.349920343625
+  },
+  "channel_kruskal": {
+    "h": 990.8306366550387,
+    "p_value": 1.754843642676605e-214
+  },
+  "rework_by_channel_chi_square": {
+    "chi2": 238.78837029058556,
+    "p_value": 1.739876091631542e-51,
+    "dof": 3
+  }
+}

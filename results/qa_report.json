@@ -1,0 +1,267 @@
+{
+  "passed": 52,
+  "total": 52,
+  "overall": "PASS",
+  "checks": [
+    {
+      "name": "repository_structure",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "name": "canonical_generation",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "exact_row_count",
+      "status": "PASS",
+      "detail": "n=100000"
+    },
+    {
+      "name": "deterministic_manifest",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "unique_ids",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "calendar_integrity",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "channel_calendar_consistency",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "timestamp_ordering",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "abandonment_censoring",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "completed_record_integrity",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "staffing_grain",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "capacity_reconciliation",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "backlog_recursion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "outage_overlap_fields",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "analyst_integrity",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "complexity_stability",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "risk_methodology",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "defect_opportunities",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "dpmo_inputs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "cost_of_quality",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "copq_reconciliation",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "required_control_excluded_from_copq",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "quality_issue_seeding",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "detection_precision",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "detection_recall",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "clean_reconciliation",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "msa_design",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "doe_balance",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "doe_execution",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "spc_outputs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "special_cause_manifest",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "regression_diagnostics",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "capability_methodology",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "multi_seed_robustness",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "statistical_qa",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "documentation",
+      "status": "PASS",
+      "detail": "57 markdown files"
+    },
+    {
+      "name": "synthetic_disclosure",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "no_placeholders",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "name": "privacy_no_real_customer_names",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "no_credentials",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "python_syntax",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "sql_coverage",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "ci_wiring",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "output_hashes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "repository_hygiene",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "readme_metrics",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "operational_definitions",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "causal_map",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "control_phase",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "pilot_phase",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "fmea",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "hypothesis_tests",
+      "status": "PASS",
+      "detail": ""
+    }
+  ]
+}

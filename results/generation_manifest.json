@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "target_rows": 100000,
+  "actual_rows": 100000,
+  "date_range": [
+    "2024-01-01",
+    "2026-08-31"
+  ],
+  "python_version": "3.12.13",
+  "numpy_version": "2.5.2",
+  "pandas_version": "3.0.5",
+  "configuration_version": "2.0.0",
+  "runtime_seconds": 29.739,
+  "row_count": 100000,
+  "column_count": 104,
+  "output_hashes": {
+    "applications": "970d95b1880cb36b50b485b5e4ef01a7f58df7cfdcb249f8a6e8f0cd55f6ae82",
+    "calendar": "d2b8dec3d19a0271ae91320287a0b96ba5484df0fd124d970c1152a2f65fd05b",
+    "branches": "c341ee082bb5c6b398d8d62d47dd7ea59619034520095c9efc29246c7b10b641",
+    "analysts": "8d7567ca22533b3c50e06b427a75307bda86e8e49752e25b93eef96a26ce5e98",
+    "capacity": "9795fdbbbe8a16f07a310666d2bc1c88c88d61310f56447fee283022a2094807",
+    "events": "1edded816863d223a37798d86d9ec6d9f049f64bd2ab35addb00a927e3294e5e"
+  }
+}

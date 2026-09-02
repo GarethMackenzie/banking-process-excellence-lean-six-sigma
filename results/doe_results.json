@@ -1,0 +1,28 @@
+{
+  "r_squared": 0.7118947485733779,
+  "coefficients": {
+    "Intercept": 4.618625475903999,
+    "Staffing_Capacity": -0.30694250920939325,
+    "Document_Prevalidation": -0.385739418872843,
+    "Staffing_Capacity:Document_Prevalidation": -0.1159034347111993,
+    "Routing_Strategy": -0.1821296124975773,
+    "Staffing_Capacity:Routing_Strategy": 0.030736092711241503,
+    "Document_Prevalidation:Routing_Strategy": 0.042756940641655375,
+    "Staffing_Capacity:Document_Prevalidation:Routing_Strategy": -0.005190801654975541
+  },
+  "best_observed_configuration": {
+    "Staffing_Capacity": 1.0,
+    "Document_Prevalidation": 1.0,
+    "Routing_Strategy": 1.0,
+    "Total_Cycle_Time_Hours": 3.6962127323109075
+  },
+  "anova_p_values": {
+    "Staffing_Capacity": 8.099491482701598e-13,
+    "Document_Prevalidation": 3.1148635582089767e-17,
+    "Staffing_Capacity:Document_Prevalidation": 0.00215931731717433,
+    "Routing_Strategy": 3.3169168221752475e-06,
+    "Staffing_Capacity:Routing_Strategy": 0.40421503681055926,
+    "Document_Prevalidation:Routing_Strategy": 0.24678302824633672,
+    "Staffing_Capacity:Document_Prevalidation:Routing_Strategy": 0.8877590854271803
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "weekly_i_chart_center": 3.4100724738869768,
+  "weekly_i_chart_ucl": 3.5483999113386364,
+  "weekly_i_chart_lcl": 3.271745036435317,
+  "weekly_i_chart_signals": 19,
+  "seeded_events": 76,
+  "events_detected_local_state": 14,
+  "event_detection_rate": 0.18421052631578946,
+  "missed_events": 62,
+  "local_false_alarm_group_days": 2413,
+  "local_false_alarm_rate": 0.013763404061145334,
+  "median_detection_lag_days": 0.0
+}

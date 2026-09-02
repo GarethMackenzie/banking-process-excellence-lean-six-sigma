@@ -1,0 +1,40 @@
+{
+  "seed": 42,
+  "n_applications": 100000,
+  "start_date": "2024-01-01",
+  "end_date": "2026-08-31",
+  "config_version": "2.0.0",
+  "n_branches": 60,
+  "n_analysts": 180,
+  "capacity_per_fte": 8.5,
+  "public_holiday_rate": 0.025,
+  "outage_event_count": 28,
+  "volume_spike_event_count": 12,
+  "staffing_shock_event_count": 22,
+  "reviewer_shortage_event_count": 14,
+  "sla_by_complexity_hours": {
+    "Low": 8.0,
+    "Medium": 16.0,
+    "High": 24.0
+  },
+  "cost_assumptions_rand": {
+    "prevention_per_application": 4.0,
+    "required_manual_review": 45.0,
+    "defect_driven_review": 45.0,
+    "rework_per_cycle": 35.0,
+    "repeat_processing_per_cycle": 20.0,
+    "complaint": 80.0,
+    "abandonment": 150.0,
+    "expedited_handling": 60.0
+  },
+  "complexity_thresholds": {
+    "Low": "<=29",
+    "Medium": "30-49",
+    "High": ">=50"
+  },
+  "risk_thresholds": {
+    "Low": "<35",
+    "Medium": "35-64.999",
+    "High": ">=65"
+  }
+}

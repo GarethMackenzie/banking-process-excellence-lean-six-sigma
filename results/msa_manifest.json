@@ -1,0 +1,12 @@
+{
+  "seed": 314,
+  "items_per_phase": 60,
+  "reviewers": 4,
+  "trials": 2,
+  "phases": [
+    "Baseline",
+    "Post_Standardization"
+  ],
+  "rows": 960,
+  "balanced": true
+}

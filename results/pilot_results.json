@@ -1,0 +1,21 @@
+{
+  "sample_size": 20000,
+  "selected_configuration": {
+    "Staffing_Capacity": 1,
+    "Document_Prevalidation": 1,
+    "Routing_Strategy": 1
+  },
+  "doe_cycle_delta_hours": -1.760004684469576,
+  "doe_cycle_ratio": 0.6774313503239958,
+  "baseline_median_hours": 3.438639701085,
+  "pilot_median_hours": 2.348123167928474,
+  "baseline_sla": 0.9784,
+  "pilot_sla": 0.9925,
+  "baseline_rework": 0.22335,
+  "pilot_rework": 0.10955,
+  "baseline_copq_per_app": 18.663,
+  "pilot_copq_per_app": 8.964000558659215,
+  "mann_whitney_p_value": 0.0,
+  "median_cycle_change_pct": -31.71360270203457,
+  "copq_change_pct": -51.96913380132232
+}
